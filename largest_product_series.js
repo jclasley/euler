@@ -28,7 +28,7 @@ function solve() {
            index += 1;
        }
    }
-   return product;
+   return max;
 }
 
 const series = '73167176531330624919225119674426574742355349194934' +
