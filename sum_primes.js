@@ -19,6 +19,5 @@ const generateSieveTo = x => {
 }
 
 const primes = generateSieveTo(2000000);
-console.log(primes.map((x, n) => x ? n : 0).slice(0, 20));
 const ans = primes.map((x, n) => x ? n : 0).reduce((m, x) => m + x)
 console.log(ans);
